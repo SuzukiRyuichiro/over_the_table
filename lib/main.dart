@@ -165,6 +165,7 @@ class FavoritePage extends StatelessWidget {
           child: Text(
             'You have '
             '${appState.favorites.length} favorites:',
+            style: TextStyle(fontSize: 20),
           ),
         ),
         for (var wordPair in appState.favorites)
